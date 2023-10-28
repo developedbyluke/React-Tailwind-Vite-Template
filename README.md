@@ -14,7 +14,13 @@
      cd my-new-project
      ```
 
-2. **Install Dependencies**:
+2. **Create a Public Directory**:
+   - Create a `public` directory for static assets:
+     ```bash
+     mkdir public
+     ```
+
+3. **Install Dependencies**:
    - Navigate to the project directory and install the necessary dependencies:
      ```bash
      npm install
@@ -22,7 +28,7 @@
      yarn install
      ```
 
-3. **Start the Development Server**:
+4. **Start the Development Server**:
    - Now that the dependencies are installed, start the Vite development server:
      ```bash
      npm run dev
